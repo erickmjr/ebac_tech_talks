@@ -1,17 +1,26 @@
 {
   "name": "ebac_tech_talks",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickmjr/ebac_tech_talks.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/erickmjr/ebac_tech_talks/issues"
+  },
+  "homepage": "https://github.com/erickmjr/ebac_tech_talks#readme",
   "description": "",
   "devDependencies": {
-    "sass": "^1.85.1"
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
   }
 }
